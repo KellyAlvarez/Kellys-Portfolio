@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>Kelly's Portfilio - Rock Paper Scissors Game</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="C:\Users\kelly\OneDrive\Desktop\KA_portfilio_cohort16\images\style.css" />
+</head>
+
+<header class="mainheader">
+    <nav class="nav">
+        <ul>
+            <li><a class="nav" href="C:\Users\kelly\OneDrive\Desktop\KA_portfilio_cohort16\images\index.html">ABOUT ME</a></li>
+            <li><a class="nav" href="C:\Users\kelly\OneDrive\Desktop\KA_portfilio_cohort16\webpages\inspo.html">INSPIRATION</a></li>
+            <li><a class="nav" href="C:\Users\kelly\OneDrive\Desktop\KA_portfilio_cohort16\webpages\game.html">GAME</a></li>
+        </ul>
+        <center><img src="C:\Users\kelly\OneDrive\Desktop\KA_portfilio_cohort16\images\signature.png" style="width: 15%"></center>
+    </nav>
+</header>
+
+
+
+<body>
+    <hr>
+    <center><h1 class="rpshead">Let's Play Rock Paper Scissors!</h1>
+        <div>
+            <button id="btn" onclick = "buttonfunction()" class="button instructionsbtn">Hide Instructions</button>
+        </div>
+        <div id="paragraph">
+            <p>
+                <center class="instructions">Here's how to play Rock, Paper, Scissors! It is a simple fun game 
+                    involving two players, in this case you will be playing against the computer. Use the buttons 
+                    to choose one option among the rock, paper, and scissors. A random option will be generated 
+                    from the computer’s side and comared to your choice. Rock beats scissors. Paper beats rock. 
+                    Scissors beats paper. The winner of each round will get one point added to their score, however 
+                    if it's a draw then no points will be rewarded. Your job is to get more points than the computer. 
+                    Think you can beat the computer? Give it a try! Good luck and have fun!</center>
+            </p>
+        </div>
+        <hr>
+        <p>
+        <button class="selection" data-selection="rock">🪨</button>
+        <button class="selection" data-selection="paper">📃</button>
+        <button class="selection" data-selection="scissors">✂️</button>
+        </p>
+    </center>
+    <div class="results">
+        <h4>
+            My Score: 
+            <span class="result-score" data-my-score>0</span>
+        </h4>
+        <h4 data-final-column>
+            Computer Score:
+            <span class="result-score" data-computer-score>0</span>
+        </h4>
+    </div>
+</body>
+
+<footer class="footer">
+    <p>contact:</p>
+    <p>kelly69141@gmail.com</p>
+    <p>(830)469-8156</p>
+</footer>
+
+</html>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="C:\Users\kelly\OneDrive\Desktop\KA_portfilio_cohort16\images\script.js" defer></script>
+
+

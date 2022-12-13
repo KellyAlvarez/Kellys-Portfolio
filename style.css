@@ -1,0 +1,158 @@
+.head {
+    font-family: 'Playfair Display', cursive;
+    margin: 50px;
+}
+
+.rpshead {
+    font-family: 'Playfair Display', cursive;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.mainheader {
+    background-color: rgba(0, 0, 1, 0.186);
+    background-image: url("C:/Users/kelly/OneDrive/Desktop/KA_portfilio_cohort16/images/header2.JPG");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', cursive;
+    color: rgb(52, 29, 44);
+    background-color: rgba(109, 124, 197, 0.585);
+    text-align:justify;
+}
+
+.nav, ul {
+    margin: 0;  
+    vertical-align: right;
+}
+
+html, ul {
+    text-align: right;
+}
+
+.nav, li {
+    color:bisque;
+    display: inline;
+    padding: 0 1%;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(109, 124, 197, 0.585);
+}
+
+.row {
+    padding: 0 10px;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.column {
+    flex: 30%;
+    max-width: 30%;
+    padding: 0 10px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.mainbody {
+    margin: 3em;
+}
+
+.about-me-image {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+.images {
+    border-style:dashed;
+    border-color: white;
+    border-radius: 3%;
+    margin: 1%;
+}
+
+.footer {
+    background-color: rgb(179, 188, 237);
+    text-align: left;
+    padding: 3%;
+}
+
+.button {
+    background-color: rgba(52, 29, 44, 0);
+    color:rgb(52, 29, 44);
+    font-family: 'Poppins', cursive;
+    font-size: 15px;
+    margin-left: 38%;
+    margin-right: 38%;
+    border-style: hidden;
+    text-decoration-line: underline;
+
+}
+
+button:hover{
+    background-color: rgba(210, 131, 234, 0.468);
+}
+
+.instructions{
+    margin-right: 5em;
+    margin-left: 5em;
+    margin-bottom: 3em;
+}
+  
+  .selections {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .selection {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 3rem;
+    transition: 100ms;
+  }
+  
+  .selection:hover {
+    transform: scale(1.2);
+  }
+  
+  .results {
+    font-family: 'Playfair Display', cursive;
+    color: rgb(52, 29, 44);
+    margin-top: 1rem;
+    margin-bottom: 10em;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  
+  .result-score {
+    margin-left: .1rem;
+    font-size: 2rem;
+    color:black;
+  }
+  
+  .result-selection {
+    opacity: .5;
+  }
+  
+  .result-selection.winner {
+    opacity: 1;
+    font-size: 2.5rem;
+  }
